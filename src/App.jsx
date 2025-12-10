@@ -22,10 +22,6 @@ export default function App() {
   );
 }
 
-/* ----------------------------------------------- */
-/* 1. CIRCULAR PROGRESS BAR SECTION                */
-/* ----------------------------------------------- */
-
 function ProgressSection() {
   const [progress, setProgress] = useState(40);
 
@@ -91,10 +87,6 @@ function CircularProgress({ value, size }) {
   );
 }
 
-/* ----------------------------------------------- */
-/* 2. SWIPE CARD WITH SMOOTHER PHYSICS             */
-/* ----------------------------------------------- */
-
 function SwipeCard() {
   const cards = [
     { id: 1, text: "Swipe Right to Approve", color: "bg-purple-700" },
@@ -136,16 +128,13 @@ function SwipeCard() {
   );
 }
 
-/* ----------------------------------------------- */
-/* 3. FLOATING INTERACTIVE BUTTON                  */
-/* ----------------------------------------------- */
 
 function FloatingButton() {
   const [open, setOpen] = useState(false);
 
   return (
     <div className="relative">
-      {/* Icons */}
+      
       <AnimatePresence>
         {open && (
           <motion.div
@@ -159,7 +148,7 @@ function FloatingButton() {
         )}
       </AnimatePresence>
 
-      {/* Main Button */}
+     
       <motion.button
         onClick={() => setOpen(!open)}
         whileTap={{ scale: 0.85 }}
