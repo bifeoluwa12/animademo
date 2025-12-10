@@ -37,5 +37,5 @@ A modern, interactive React project demonstrating **circular progress bars**, **
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/bifeoluwa12/animationdemo.git
+git clone https://github.com/bifeoluwa12/animademo.git
 ```
