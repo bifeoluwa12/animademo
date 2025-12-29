@@ -1,41 +1,50 @@
-# AnimationDemo
+🛍️ Premium Fashion UI — React + Tailwind
 
-A modern, interactive React project demonstrating **circular progress bars**, **swipeable cards**, and **floating interactive buttons** using **Vite**, **Tailwind CSS**, **Framer Motion**, and **Lucide Icons**.
+A modern, animated fashion checkout and rewards interface built with React, Tailwind CSS, and Framer Motion.
+Designed to feel premium, alive, and mobile-first, with smooth micro-interactions and tier-based rewards logic.
 
----
+✨ Features
 
-## 🚀 Features
+🎨 Premium UI inspired by modern fashion and fintech apps
 
-1. **Circular Progress Bar**
 
-   - Smoothly animated progress indicator.
-   - Increment and decrement buttons for live interaction.
 
-2. **Swipe Cards**
 
-   - Cards that can be swiped left or right.
-   - Animated transitions with spring physics.
 
-3. **Floating Interactive Button**
-   - Toggleable button with animated icons.
-   - Smooth entry and exit animations using Framer Motion.
+🌊 Live animated background
 
----
+Subtle motion (“breathing” effect)
 
-## 📦 Tech Stack
+Animated light sweep overlay
 
-- **React** – Frontend library
-- **Vite** – Fast development & build tool
-- **Tailwind CSS** – Utility-first styling
-- **Framer Motion** – Animations
-- **Lucide React** – Icons
+🧭 Tier system
 
----
+Bronze → Silver → Gold
 
-## ⚡ Installation
+Automatic tier calculation based on points
 
-1. Clone the repository:
+🧾 Full-screen purchase confirmation
 
-```bash
-git clone https://github.com/bifeoluwa12/animademo.git
-```
+Smooth Framer Motion transitions
+
+📱 Fully responsive
+
+⚡ Fast Vercel deployment
+
+♿ Motion-safe (easy to add reduced-motion support)
+
+
+
+
+
+🧠 Tech Stack
+
+React (Vite)
+
+Tailwind CSS
+
+Framer Motion
+
+Lucide Icons
+
+Vercel (Hosting)
